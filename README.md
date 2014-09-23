@@ -63,6 +63,6 @@ window.partials = {
     - The namespace object on the `window` object that will store references to the compiled template functions, defaults to 'templates'.
 
 [basedir] {String}
-    - allows for absolute include paths, defaults to the value of the source parameter.
+    - allows for absolute include paths, defaults to the value of paths.tmplPath.
 
 ```
