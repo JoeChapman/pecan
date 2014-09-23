@@ -1,0 +1,49 @@
+{
+    "predef": [
+        "before",
+        "afterAll",
+        "beforeEach",
+        "afterEach",
+        "before",
+        "after",
+        "describe",
+        "xdescribe",
+        "it",
+        "xit",
+        "sandbox",
+        "expect",
+        "should",
+        "window",
+        "sinon",
+        "mocha",
+        "chai",
+        "$"
+    ],
+
+    "node": true,
+
+    "bitwise"       : true,
+    "curly"         : true,
+    "eqeqeq"        : true,
+    "forin"         : true,
+    "freeze"        : true,
+    "immed"         : false,
+    "indent"        : 4,
+    "latedef"       : "nofunc",
+    "newcap"        : true,
+    "noarg"         : true,
+    "noempty"       : true,
+    "nonew"         : true,
+    "quotmark"      : "single",
+    "undef"         : true,
+    "unused"        : true,
+    "strict"        : true,
+    "trailing"      : true,
+    "maxdepth"      : 3,
+    "maxstatements" : 20,
+    "maxcomplexity" : 5,
+    "expr"          : true,
+
+    "boss"          : true
+
+}

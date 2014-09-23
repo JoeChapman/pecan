@@ -1,0 +1,40 @@
+{
+  "name": "pecan",
+  "version": "0.0.1",
+  "description": "Compile your templates to a location that may or may not yet exist.",
+  "main": "index.js",
+  "scripts": {
+    "unit": "node ./node_modules/mocha/bin/mocha test/",
+    "lint": "node ./node_modules/jshint/bin/jshint ./",
+    "jscs": "node ./node_modules/jscs/bin/jscs ./",
+    "test": "npm run lint && npm run jscs && npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JoeChapman/pecan.git"
+  },
+  "keywords": [
+    "templates",
+    "compile",
+    "node.js",
+    "fs"
+  ],
+  "author": "Joe Chapman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoeChapman/pecan/issues"
+  },
+  "homepage": "https://github.com/JoeChapman/pecan",
+  "dependencies": {
+    "jade": "1.5.0",
+    "node-fs": "0.1.7"
+  },
+  "devDependencies": {
+    "jshint": "2.5.5",
+    "jscs": "1.6.1",
+    "mocha": "1.21.4",
+    "chai": "1.9.1",
+    "sinon": "1.10.3",
+    "sinon-chai": "2.5.0"
+  }
+}
