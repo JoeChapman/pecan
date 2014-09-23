@@ -20,13 +20,12 @@ var pecan = require('aspargus');
 
 // A source and destination paths are required
 
-    pecan({ jsPath: '/dest/path', tmplPath: '/src/path' }, {
-        dest: __dirname + '/public/templates',
-        format: 'camelcase',
-        namespace: 'partials',
-        basedir: __dirname + '/views/dev'
-    })
-    .compile();
+pecan({ jsPath: '/dest/path', tmplPath: '/src/path' }, {
+    format: 'camelcase',
+    namespace: 'partials',
+    basedir: __dirname + '/views/dev'
+})
+.compile();
 ```
 
 **Plays nice with Gulp too** simply wrap the above in a gulp task, I.e.,
@@ -38,7 +37,6 @@ var gulp = require('gulp'),
 gulp.task('pecan', function () {
 
     pecan({ jsPath: '/dest/path', tmplPath: '/src/path' }, {
-        dest: __dirname + '/public/templates',
         format: 'camelcase',
         namespace: 'partials',
         basedir: __dirname + '/views/dev'
