@@ -88,11 +88,12 @@ Pecan.prototype = {
                 }
 
                 if (Pecan.queue[this.paths.tmplPath]) {
-                    // Notify the middleware that this request has finished
-                    Pecan.queue[this.paths.tmplPath].emit('end');
+                    var queueItem = Pecan.queue[this.paths.tmplPath];
+                    // by remving this item, consumers can inspect the remaining files to be compiled
+                    delete Pecan.queue[this.paths.tmplPath];
+                    // emit end to any consumer listening
+                    queueItem.emit('end');
                 }
-                // delete the event emitter
-                delete Pecan.queue[this.paths.tmplPath];
 
                 this.next();
 
