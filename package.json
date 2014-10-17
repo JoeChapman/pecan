@@ -1,6 +1,6 @@
 {
   "name": "pecan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compile your templates to a location that may or may not yet exist.",
   "main": "index.js",
   "scripts": {
