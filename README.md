@@ -6,7 +6,7 @@ Compile your templates to a location that may or may not yet exist.
 *Pecan is a depedency of [asparagus](http://joechapman.github.io/asparagus/), extending your nuts in a healthy, flexible wrapper for easy consumption.*
 
 [![Build Status](https://travis-ci.org/JoeChapman/pecan.svg?branch=master)](https://travis-ci.org/JoeChapman/pecan)
-[![NPM version](https://badge.fury.io/js/pecan.svg)](http://badge.fury.io/js/pecan)
+[![NPM version](https://badge.fury.io/js/pecan.svg)](http://badge.fury.io/js/pecan) [![Greenkeeper badge](https://badges.greenkeeper.io/JoeChapman/pecan.svg)](https://greenkeeper.io/)
 
 ### Install
 
