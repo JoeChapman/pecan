@@ -26,15 +26,15 @@
   },
   "homepage": "https://github.com/JoeChapman/pecan",
   "dependencies": {
-    "jade": "1.5.0",
+    "jade": "1.11.0",
     "node-fs": "0.1.7"
   },
   "devDependencies": {
-    "jshint": "2.5.5",
-    "jscs": "1.6.1",
-    "mocha": "1.21.4",
-    "chai": "1.9.1",
-    "sinon": "1.10.3",
-    "sinon-chai": "2.5.0"
+    "jshint": "2.9.6",
+    "jscs": "3.0.7",
+    "mocha": "5.2.0",
+    "chai": "4.1.2",
+    "sinon": "6.2.0",
+    "sinon-chai": "3.2.0"
   }
 }
